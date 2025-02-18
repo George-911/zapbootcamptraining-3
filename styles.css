@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('pexels-iriser-1393437.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(243, 243, 243);
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    color: #b22222;
+}
+
+p {
+    font-size: medium;
+    margin: 20px;
+}
+
+.hook-up {
+    padding: 10px 20px;
+    font-size: smaller;
+    color: whitesmoke;
+    background: #ff4d4d;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.hook-up:hover {
+    background: #b22222;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: auto;
+}
